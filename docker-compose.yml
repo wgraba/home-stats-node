@@ -9,4 +9,5 @@ services:
         - ./telegraf.env
       environment: 
         - HOST_PROC=/hostfs/proc
+      network_mode: "host"
       restart: unless-stopped
