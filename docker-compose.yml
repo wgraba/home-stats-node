@@ -1,7 +1,7 @@
 version: '3'
 services:
     telegraf:
-      image: telegraf:1.26
+      image: telegraf:1.27
       volumes:
         - ./mytelegraf.conf:/etc/telegraf/telegraf.conf
         - /proc:/hostfs/proc:ro
